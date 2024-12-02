@@ -79,10 +79,7 @@ Les principales entités et leurs relations :
 - **MySQL**
 
 ### **Étapes**
-1. Télécharger le projet pour l'ouvrir dans Eclipse ou clonez le dépôt :
-   ```bash
-   git clone https://github.com/nollandL/JEE_gestion.git
-   ```
+1. Télécharger le projet pour l'ouvrir dans Eclipse
 2. Configurez la base de données en exécutant le script SQL fourni.
 3. Mettez à jour les paramètres de connexion dans le fichier `application.properties`.
 4. Dans Eclipse: Run as Java Application le JEEGestionApplication.java dans le package com.exemple.jee_gestion dans le src/main/java dans le projet jee-gestion.
@@ -90,6 +87,12 @@ Les principales entités et leurs relations :
 
 
 lien du github de la partie 2 ( hibernate ) : [https://github.com/lnolland/jee_gestion_part2](https://github.com/lnolland/jee_gestion_part2).
+
+  Etapes pour lancer la partie hibernate:
+1. Télécharger le projet pour l'ouvrir dans Eclipse dans le github fournis juste au dessus
+2. Configurez la base de données en exécutant le script SQL fourni.
+3. Mettez à jour les paramètres de connexion dans le fichier `application.properties`.
+4. Dans Eclipse: Run on server le login.jsp ( src/main/java->src->main->webapp->WEB-INF->views ) avec un Apache Tomcat 10.1 
 ---
 
 ## **Équipe**
