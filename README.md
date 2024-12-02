@@ -88,6 +88,8 @@ Les principales entités et leurs relations :
 4. Dans Eclipse: Run as Java Application le JEEGestionApplication.java dans le package com.exemple.jee_gestion dans le src/main/java dans le projet jee-gestion.
 5. Accédez à l'application via [http://localhost:8080](http://localhost:8080) dans un navigateur.
 
+
+lien du github de la partie 2 ( hibernate ) : [https://github.com/lnolland/jee_gestion_part2](https://github.com/lnolland/jee_gestion_part2).
 ---
 
 ## **Équipe**
