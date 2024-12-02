@@ -101,20 +101,6 @@ Les principales entités et leurs relations :
 
 ---
 
-## **Problèmes Rencontrés**
-- Difficultés avec Hibernate et IntelliJ.
-- Focus principal sur la mise en place des fonctionnalités essentielles.
-
----
-
-## **Captures d'Écran**
-- Page de connexion
-- Interface administrateur
-- Gestion des cours et des notes
-- Tableau de bord étudiant
-
----
-
 ## **Licence**
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
 
