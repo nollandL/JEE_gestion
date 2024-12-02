@@ -1,0 +1,122 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal pour le contenu */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+/* Titre principal */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Section pour les informations de l'enseignant */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Boutons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Titre pour les sections Matières et Cours */
+h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Liste des matières enseignées */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+/* Table des cours associés */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Adaptation responsive pour petits écrans */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    p, ul, table {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,80 @@
+/* Mise en forme globale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.6em;
+    margin-top: 30px;
+}
+
+/* Tables */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des en-têtes de tableau */
+th {
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+/* Style des cellules du tableau */
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Boutons d'action dans les cellules */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Style pour les boutons de modification et désaffectation */
+button:focus {
+    outline: none;
+}
+
+/* Bouton pour ajouter un cours */
+button[onclick] {
+    background-color: #2ecc71;
+    margin: 20px auto;
+    display: block;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button[onclick]:hover {
+    background-color: #27ae60;
+}
+
+/* Espacement et alignement */
+form {
+    display: inline;
+}

@@ -1,0 +1,62 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre de la page */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+/* Formulaire */
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Style pour le champ de date */
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Bouton pour sauvegarder */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}

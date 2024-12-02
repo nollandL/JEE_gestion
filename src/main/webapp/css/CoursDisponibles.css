@@ -1,0 +1,63 @@
+/* Mise en forme globale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des en-têtes de tableau */
+th {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+/* Style des cellules du tableau */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style des boutons dans les cellules */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Style du tableau pour les cours disponibles */
+h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+form {
+    display: inline;
+}

@@ -1,0 +1,24 @@
+
+.header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(0, 255, 64);
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: #0056b3;
+}
+
+.header a:last-child {
+    color: red;
+}

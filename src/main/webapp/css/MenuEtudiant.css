@@ -1,0 +1,51 @@
+/* Style global de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre principal */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Liste de liens */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+ul li a {
+    display: block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+ul li a:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive : ajuster la présentation sur les petits écrans */
+@media (max-width: 768px) {
+    ul li {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
