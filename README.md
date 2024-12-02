@@ -79,13 +79,13 @@ Les principales entités et leurs relations :
 - **MySQL**
 
 ### **Étapes**
-1. Clonez le dépôt :
+1. Télécharger le projet pour l'ouvrir dans Eclipse ou clonez le dépôt :
    ```bash
    git clone https://github.com/nollandL/JEE_gestion.git
    ```
 2. Configurez la base de données en exécutant le script SQL fourni.
 3. Mettez à jour les paramètres de connexion dans le fichier `application.properties`.
-4. Dans Eclipse: Run on server le JEEGestionApplication.java dans le package com.exemple.jee_gestion dans le src/main/java dans le projet jee-gestion.
+4. Dans Eclipse: Run as Java Application le JEEGestionApplication.java dans le package com.exemple.jee_gestion dans le src/main/java dans le projet jee-gestion.
 5. Accédez à l'application via [http://localhost:8080](http://localhost:8080) dans un navigateur.
 
 ---
