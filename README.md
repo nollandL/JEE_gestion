@@ -85,7 +85,7 @@ Les principales entités et leurs relations :
    ```
 2. Configurez la base de données en exécutant le script SQL fourni.
 3. Mettez à jour les paramètres de connexion dans le fichier `application.properties`.
-4. Daans Eclipse: Run on server le JEEGestionApplication.java dans le package com.exemple.jee_gestion dans le src/main/java dans le projet jee-gestion.
+4. Dans Eclipse: Run on server le JEEGestionApplication.java dans le package com.exemple.jee_gestion dans le src/main/java dans le projet jee-gestion.
 5. Accédez à l'application via [http://localhost:8080](http://localhost:8080) dans un navigateur.
 
 ---
