@@ -81,7 +81,7 @@ Les principales entités et leurs relations :
 ### **Étapes**
 1. Télécharger le projet pour l'ouvrir dans Eclipse
 2. Configurez la base de données en exécutant le script SQL fourni.
-3. Mettez à jour les paramètres de connexion dans le fichier `application.properties`.
+3. Mettez à jour les paramètres de connexion dans le fichier `application.properties` si besoin.
 4. Dans Eclipse: Run as Java Application le JEEGestionApplication.java dans le package com.exemple.jee_gestion dans le src/main/java dans le projet jee-gestion.
 5. Accédez à l'application via [http://localhost:8080](http://localhost:8080) dans un navigateur.
 
@@ -91,7 +91,7 @@ lien du github de la partie 2 ( hibernate ) : [https://github.com/lnolland/jee_g
   Etapes pour lancer la partie hibernate:
 1. Télécharger le projet pour l'ouvrir dans Eclipse dans le github fournis juste au dessus
 2. Configurez la base de données en exécutant le script SQL fourni.
-3. Mettez à jour les paramètres de connexion dans le fichier `application.properties`.
+3. Mettez à jour les paramètres de connexion dans le fichier `application.properties` si besoin.
 4. Dans Eclipse: Run on server le login.jsp ( src/main/java->src->main->webapp->WEB-INF->views ) avec un Apache Tomcat 10.1 
 ---
 
