@@ -4,6 +4,17 @@
 CREATE DATABASE IF NOT EXISTS gestion_scolarite;
 USE gestion_scolarite;
 
+-- Table `etudiants`
+CREATE TABLE `etudiants` (
+    `id` bigint NOT NULL AUTO_INCREMENT,
+    `nom` varchar(50) NOT NULL,
+    `prenom` varchar(50) NOT NULL,
+    `date_naissance` date NOT NULL,
+    `contact` varchar(100) DEFAULT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
 -- Table `enseignants`
 CREATE TABLE `enseignants` (
     `id` bigint NOT NULL AUTO_INCREMENT,
